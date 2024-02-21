@@ -8,7 +8,7 @@ const alarmSound = new Audio();
 
 
 
-alarmSound.src = "http://soundbible.com/mp3/Rooster-SoundBible.com-1114473528.mp3";
+alarmSound.src = "https://pixabay.com/music/solo-piano-tense-cinematic-117406/";
 let alarmTimer;
 
 options.style.display = "none";
