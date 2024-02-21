@@ -4,12 +4,10 @@ const snoozeButton = document.querySelector(".btn-snooze");
 const stopButton = document.querySelector(".btn-stopalarm");
 const time = document.querySelector(".alarm-time");
 const options = document.querySelector(".options");
-// const alarmSound = new Audio();
 const audio = document.querySelector('audio');
 
 
 
-// alarmSound.src = "https://pixabay.com/music/solo-piano-tense-cinematic-117406/";
 let alarmTimer;
 
 options.style.display = "none";
