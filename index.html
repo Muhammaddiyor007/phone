@@ -89,23 +89,9 @@
               Close</button>
             <h2>Kril to Latin</h2>
             <div>
-              <div class="smallLbl">
-                <div class="wrapper__checkbox">
-                  <input type="checkbox" id="skipUrl" checked>
-                  <label class="label" for="skipUrl">Write as simple text&nbsp;</label>
-                </div>
-                <input type="checkbox" id="skipTags">
-                <label class="label" for="skipTags">Write like HTML(&lt;...&gt;)</label>
-              </div>
               <textarea id="srcText" placeholder="Write something here" cols="80" rows="8"></textarea>
             </div>
-            <div class="fileInput">
-              <label for="file" class="smallLbl label">Or choose a file: </label>
-              <input type="file" id="file" accept=".srt,text/*" onchange="handleFile(this.files)">
-            </div>
             <div>
-              <button onclick="toCir()" id="encBtn">⯆ Kiril</button>
-              <button onclick="toLat()" id="encBtn">⯆ Latin</button>
               <label id="infoLbl" class="smallLbl"></label>
             </div>
             <div>
@@ -114,7 +100,7 @@
             <div>
               <button onclick="cpy()" id="cpyBtn">Copy</button>
               <button onclick="clr()" id="clrBtn">Delete</button>
-              <label id="msgLbl" class="errLbl"></label>
+
             </div>
           </div>
         </div>
